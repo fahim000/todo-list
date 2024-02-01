@@ -23,3 +23,30 @@
     color :black;
     margin-bottom: 20px;
 }
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: whitesmoke;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex:1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #39c8b8;
+    color: black;
+    border-radius: 30px;
+    font size: 15px;
+    cursor: pointer;
+}
