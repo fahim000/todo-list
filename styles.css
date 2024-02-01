@@ -1,11 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    
+
 }
 .container{
     width: 100%;
-    min-height: 100vh;
-    background-color: black;
-    padding: 0px;
+    height: 100vh;
+    background-image: linear-gradient(125deg, #39c8b8, #56a25d);
+    padding: 10px;
+
+}
+.todo{
+    width: 100%;
+    max-width: 400px;
+    background: white;
+     margin: 100px auto 20px;
+     padding: 40px 30px 70px;
+     border-radius: 10px;
+}
+.todo h2{
+    align-items: center;
+    color :black;
+    margin-bottom: 20px;
 }
