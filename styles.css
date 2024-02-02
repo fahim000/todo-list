@@ -48,7 +48,7 @@ button{
     background: #39c8b8;
     color: black;
     border-radius: 30px;
-    font size: 15px;
+    font-size: 15px;
     cursor: pointer;
 }
  ul li{
@@ -70,4 +70,21 @@ button{
     background-image: url(unchecked.png);
     top:12px;
     left:8px;
+ }
+ ul li.checked{
+    color: green;
+    text-decoration: line-through;
+ }
+ ul li.checked::before {
+    background-image: url(checked.png);
+ }
+ ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width:  40px;
+    height: 40px;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
  }
